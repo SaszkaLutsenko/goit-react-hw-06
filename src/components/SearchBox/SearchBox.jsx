@@ -15,12 +15,12 @@ const SearchBox = () => {
   return (
     <div className={style.container}>
       <label className={style.label} htmlFor={elementId}>
-        Find contacts by name
+        Find contacts by name  
       </label>
       <input
         value={value}
         onChange={handleChange}
-        className={style.searchInput}
+        className={style.input}
         type="text"
         id={elementId}
         placeholder="Name"
